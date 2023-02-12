@@ -59,5 +59,3 @@ def predict(data: CustomerList):
     df_input = pd.DataFrame(data.dict()['data'])
     prediction = model.predict(df_input).tolist()
     return prediction
-    
- 
